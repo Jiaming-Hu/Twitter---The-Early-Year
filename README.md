@@ -13,10 +13,15 @@ In this assignment I’ll push MySQL to its limit by seeing how fast I can post 
 1. Implement a simple relational database to manage users and their tweets. Your database should have two tables:
 TWEETS – The tweets posted by users tweet_id long
 user_id long
+
 tweet_ts datetime
+
 tweet_text varchar(140)
+
 FOLLOWERS – Who follows whom user_id long
+
 follows_id long
+
 You don’t need a user table or a hashtag table and you can use any relational database you want but document your choice.
 2. Write a tweet generator that creates 1 million random tweets and saves these tweets to a file - we will need them again later. The tweets can be random words from some corpus of your own choosing, or they can be complete gibberish.
 3. For the followers table, generate a dataset consisting of pairs of user IDs. Again, save this data to a file – we’ll need this later as well. Then pre-populate your FOLLOWERS table with this data. Decide for yourself how many different users should be responsible for this collection of 1 million tweets and how many followers or followees each user should have. As in real life, perhaps the number of followers should follow a distribution, with some users having many followers, and many users having very few. Whatever you ultimately decide, document your modeling assumptions.
