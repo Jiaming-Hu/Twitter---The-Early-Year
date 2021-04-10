@@ -10,7 +10,7 @@ the user is following. This set of tweets – which the user sees when he/she op
 In this assignment I’ll push MySQL to its limit by seeing how fast I can post tweets and retrieve home timelines.
 
 # DATABASE AND DATA SETUP
-1. Implement a simple relational database to manage users and their tweets. Your database should have two tables:
+Implement a simple relational database to manage users and their tweets. Your database should have two tables:
 TWEETS – The tweets posted by users tweet_id long
 user_id long
 
